@@ -5,7 +5,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        cyan: 'hsl(180, 66%, 49%)',
+        cyan: {
+          DEFAULT: 'hsl(180, 66%, 49%)',
+          light: 'hsl(180, 66%, 59%)',
+        },
         darkViolet: 'hsl(257, 27%, 26%)',
         red: 'hsl(0, 87%, 67%)',
         gray: 'hsl(0, 0%, 75%)',
@@ -21,6 +24,9 @@ module.exports = {
       },
       screens: {
         mobile: '375px',
+        sm: '640px',
+        md: '768px',
+        lg: '1024px',
         desktop: '1440px',
       },
     },
