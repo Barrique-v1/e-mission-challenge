@@ -13,7 +13,7 @@ function toggleMenu() {
 </script>
 
 <template>
-  <header class="flex justify-between items-center p-8 sm:pt-8 sm:pb-0 sm:px-0">
+  <header class="flex justify-between items-center mobile:pt-8 px-8 sm:pt-8 sm:px-0">
     <!-- Logo Section -->
     <div class="flex items-center">
       <img :src="logo" alt="Shortly Logo" class="h-8 mr-8" >
