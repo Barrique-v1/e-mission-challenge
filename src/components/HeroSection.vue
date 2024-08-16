@@ -7,7 +7,7 @@
 
     <!-- Text Section -->
     <div class="text-center md:text-left md:max-w-xl mobile:mt-8 sm:mt-0 order-2 md:order-1">
-      <h1 class="text-5xl md:text-7xl font-bold text-veryDarkViolet leading-tight">
+      <h1 class="text-4xl md:text-7xl font-bold text-veryDarkViolet leading-tight">
         More than just<br> shorter links
       </h1>
       <p class="text-grayishViolet text-lg my-2 md:my-4">
