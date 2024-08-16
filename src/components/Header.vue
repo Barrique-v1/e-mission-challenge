@@ -3,10 +3,9 @@ import { ref } from 'vue';
 import logo from '@/assets/images/logo.svg';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
-// Zustand des Menüs
 const isMenuOpen = ref(false);
 
-// Toggle-Funktion für das Menü
+// Toggle-Function for the menu
 function toggleMenu() {
   isMenuOpen.value = !isMenuOpen.value;
 }
@@ -57,7 +56,3 @@ function toggleMenu() {
     </div>
   </header>
 </template>
-
-<style scoped>
-/* Hier können zusätzliche spezifische Stile hinzugefügt werden */
-</style>

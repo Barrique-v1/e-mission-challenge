@@ -63,6 +63,7 @@ const shortenedLinks = ref([]);
 const hasError = ref(false);
 const copiedIndex = ref(null);
 
+// Check if the window is resized to determine if it's mobile
 onMounted(() => {
   const updateSize = () => {
     isMobile.value = window.innerWidth < 768;
@@ -72,6 +73,7 @@ onMounted(() => {
   updateSize();
 });
 
+// Shorten the link
 const shortenLink = () => {
   if (linkInput.value.trim() === '') {
     hasError.value = true;
@@ -82,6 +84,7 @@ const shortenLink = () => {
   }
 };
 
+// Copy the link to the clipboard
 const copyToClipboard = (link, index) => {
   navigator.clipboard.writeText(link).then(() => {
     copiedIndex.value = index;
