@@ -2,12 +2,11 @@
   <section class="relative mobile:mt-8 sm:mt-24">
     <!-- Background Image -->
     <div class="relative bg-darkViolet rounded-lg overflow-hidden">
-      <div
-          class="absolute inset-0 bg-cover bg-no-repeat"
-          :style="{
-          backgroundImage: `url(${isMobile ? bgShortenMobile : bgShortenDesktop})`
-        }"
-      ></div>
+      <img
+          :src="isMobile ? bgShortenMobile : bgShortenDesktop"
+          alt="Background"
+          class="absolute inset-0 w-full h-full object-cover"
+      />
 
       <!-- Shortener Form -->
       <div class="relative z-10 p-6 md:p-12">
