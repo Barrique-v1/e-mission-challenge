@@ -2,7 +2,7 @@
   <section class="relative flex flex-col md:flex-row items-center justify-between mobile:mt-4 sm:mt-16">
     <!-- Image Section -->
     <div class="relative overflow-hidden w-full md:w-auto md:absolute md:right-0 md:top-0 order-1 md:order-2">
-      <img :src="illustrationWorking" alt="Working Illustration" class="w-full max-w-none md:max-w-xl object-cover md:object-contain translate-x-10 sm:translate-x-16 md:translate-x-24">
+      <img :src="illustrationWorking" alt="Working Illustration" class="w-full max-w-none sm:max-w-xl md:max-w-md lg:max-w-xl object-cover md:object-contain translate-x-10 sm:translate-x-16 md:translate-x-24">
     </div>
 
     <!-- Text Section -->
