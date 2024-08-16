@@ -6,7 +6,7 @@ import LinkShortener from "@/components/LinkShortener.vue";
 
 <template>
   <main>
-    <div class="container mx-auto p-8">
+    <div class="container mx-auto max-w-screen-lg p-4">
     <Header />
     <HeroSection />
     <LinkShortener />
