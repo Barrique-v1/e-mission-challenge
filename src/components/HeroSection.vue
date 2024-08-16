@@ -1,5 +1,5 @@
 <template>
-  <section class="relative flex flex-col md:flex-row items-center justify-between mt-20">
+  <section class="relative flex flex-col md:flex-row items-center justify-between mobile:mt-4 sm:mt-16">
     <!-- Text Section -->
     <div class="text-center md:text-left md:max-w-xl">
       <h1 class="text-6xl md:text-7xl font-bold text-veryDarkViolet leading-tight">
