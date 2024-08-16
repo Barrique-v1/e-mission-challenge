@@ -34,14 +34,14 @@
 
     <!-- Display Links -->
     <div v-if="shortenedLinks.length" class="mt-6 space-y-4">
-      <div v-for="(link, index) in shortenedLinks" :key="index" class="flex justify-between items-center bg-white p-4 rounded-lg">
-        <p class="text-gray-800 truncate max-w-2xl">
+      <div v-for="(link, index) in shortenedLinks" :key="index" class="flex flex-col md:flex-row justify-between items-center bg-white p-4 rounded-lg">
+        <p class="text-gray-800 truncate max-w-full md:max-w-2xl">
           {{ link }}
         </p>
         <button
             @click="copyToClipboard(link, index)"
             :class="[
-            'text-white font-bold py-2 px-4 rounded-lg',
+            'mt-2 md:mt-0 text-white font-bold py-2 px-4 rounded-lg w-full md:w-auto',
             copiedIndex === index ? 'bg-darkViolet' : 'bg-cyan hover:bg-cyan-light'
           ]"
         >
